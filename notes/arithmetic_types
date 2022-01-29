@@ -1,0 +1,40 @@
+integers:
+
+each integer type represents a finite range of integers.
+
+Signed integer: negative, zero, positive
+
+unsigned ints: zero or positive
+
+Representation
+
+Representing signed integer types is more 
+complicated that representing unsigned integer 
+types. Historically, the C language has
+supported three signed integer representation
+schemes:
+
+Sign and magnitude:
+the high-order bit indicates the sign, and the 
+remaining bits represent the magnitude of the value in pure binary notation.
+
+Ones' complement:
+The sign bit is given the weight -((2**N-1)-1)
+and the other value bits have the same weights
+as for unsigned.
+
+Twos complement:
+The sign bit is given the weight -(2**N-1) and
+the other value bits have the same weights as for unsigned.
+
+
+
+
+
+
+
+
+
+
+
+
