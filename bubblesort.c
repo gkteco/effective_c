@@ -11,7 +11,7 @@
 //}
 
 int flag(int *ass, int *des){
-	int s = -1;
+	int s = 1;
 	if (s > 0){
 		*ass = *ass;
 		*des = *des;
