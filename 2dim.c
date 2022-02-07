@@ -1,4 +1,4 @@
-#include<stdio.h>
+include<stdio.h>
 
 int main(){
 	int B[2][3] = {1,2,3,4,5,6}; // 2dim array [1 2 3][4 5 6]
