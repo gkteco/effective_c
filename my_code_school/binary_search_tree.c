@@ -54,5 +54,5 @@ int main(){
 	root = Insert(root, 1);
 	root = Insert(root, 10);
 	root = Insert(root, 12);
-	Search(root, 12);
+	Search(root, 11);
 }
